@@ -1,0 +1,7 @@
+.priceCol {
+  display: flex;
+  justify-content: flex-end;
+  font-size: small;
+  text-align: end;
+  text-align-last: right;
+}
