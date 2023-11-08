@@ -13,30 +13,6 @@ import classes from './Layout.module.css';
 
 const NavLinks = () => (
   <>
-    <a
-      key='home'
-      href='/'
-      className={classes.link}
-      onClick={(event) => event.preventDefault()}
-    >
-      Home
-    </a>
-    <a
-      key='pricelist'
-      href='/pricelist'
-      className={classes.link}
-      onClick={(event) => event.preventDefault()}
-    >
-      Preisliste
-    </a>
-    <a
-      key='contact'
-      href='/contact'
-      className={classes.link}
-      onClick={(event) => event.preventDefault()}
-    >
-      Kontakt
-    </a>
     <UnstyledButton className={classes.control} component='a' href='/'>
       Home
     </UnstyledButton>
